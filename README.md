@@ -3,6 +3,8 @@
 
 A Discord bot for [The Battle of Polytopia](https://polytopia.io) that does combat math the way the actual game does it — and then uses that math to solve planning problems you'd otherwise work out on paper.
 
+Add the bot to your server here: https://discord.com/oauth2/authorize?client_id=1486369442836385972
+
 ```
 /optim wa, ar, ri, kn vs gi, de w
 ```
