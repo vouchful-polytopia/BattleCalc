@@ -13,7 +13,7 @@ The bot figures out which attacker hits which defender, in what order, to kill t
 
 ## Why this bot
 
-Most Polytopia calculators approximate the game's combat formula. This one ports it directly from the decompiled game engine — same integer math, same rounding rule, same defense-bonus semantics. If the numbers here disagree with your game, the game is what we trust.
+
 
 On top of that correct base, the bot ships a set of planners that go beyond simple 1v1 math:
 
