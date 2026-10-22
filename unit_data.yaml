@@ -1,0 +1,857 @@
+warrior:
+  attack: 2.0
+  defense: 2.0
+  hp: 10.0
+  range: 1
+  cost: 2
+  retaliates: true
+  surprise: false
+  can_fortify: true
+  can_explode: false
+  can_splash: false
+  promotable: true
+  double_attack: false
+  trait_effects: null
+
+rider:
+  attack: 2.0
+  defense: 1.0
+  hp: 10.0
+  range: 1
+  cost: 3
+  retaliates: true
+  surprise: false
+  can_fortify: true
+  can_explode: false
+  can_splash: false
+  promotable: true
+  double_attack: false
+  trait_effects: null
+
+knight:
+  attack: 3.5
+  defense: 1.0
+  hp: 10.0
+  range: 1
+  cost: 8
+  retaliates: true
+  surprise: false
+  can_fortify: true
+  can_explode: false
+  can_splash: false
+  promotable: true
+  double_attack: false
+  trait_effects: null
+
+defender:
+  attack: 1.0
+  defense: 3.0
+  hp: 15.0
+  range: 1
+  cost: 3
+  retaliates: true
+  surprise: false
+  can_fortify: true
+  can_explode: false
+  can_splash: false
+  promotable: true
+  double_attack: false
+  trait_effects: null
+
+catapult:
+  attack: 4.0
+  defense: 0.0
+  hp: 10.0
+  range: 3
+  cost: 8
+  retaliates: false
+  surprise: false
+  can_fortify: false
+  can_explode: false
+  can_splash: false
+  promotable: true
+  double_attack: false
+  trait_effects: null
+
+archer:
+  attack: 2.0
+  defense: 1.0
+  hp: 10.0
+  range: 2
+  cost: 3
+  retaliates: true
+  surprise: false
+  can_fortify: true
+  can_explode: false
+  can_splash: false
+  promotable: true
+  double_attack: false
+  trait_effects: null
+
+mindbender:
+  attack: 0.0
+  defense: 1.0
+  hp: 10.0
+  range: 1
+  cost: 5
+  retaliates: false
+  surprise: false
+  can_fortify: false
+  can_explode: false
+  can_splash: false
+  promotable: true
+  double_attack: false
+  trait_effects: CONVERTED
+
+swordsman:
+  attack: 3.0
+  defense: 3.0
+  hp: 15.0
+  range: 1
+  cost: 5
+  retaliates: true
+  surprise: false
+  can_fortify: false
+  can_explode: false
+  can_splash: false
+  promotable: true
+  double_attack: false
+  trait_effects: null
+
+giant:
+  attack: 5.0
+  defense: 4.0
+  hp: 40.0
+  range: 1
+  cost: 10
+  retaliates: true
+  surprise: false
+  can_fortify: false
+  can_explode: false
+  can_splash: false
+  promotable: false
+  double_attack: false
+  trait_effects: null
+
+bunny:
+  attack: 5.0
+  defense: 1.0
+  hp: 20.0
+  range: 1
+  cost: 0
+  retaliates: true
+  surprise: false
+  can_fortify: false
+  can_explode: false
+  can_splash: false
+  promotable: false
+  double_attack: false
+  trait_effects: null
+
+polytaur:
+  attack: 3.0
+  defense: 1.0
+  hp: 15.0
+  range: 1
+  cost: 3
+  retaliates: true
+  surprise: false
+  can_fortify: true
+  can_explode: false
+  can_splash: false
+  promotable: false
+  double_attack: false
+  trait_effects: null
+
+dragonegg:
+  attack: 0.0
+  defense: 2.0
+  hp: 10.0
+  range: 1
+  cost: 10
+  retaliates: false
+  surprise: false
+  can_fortify: true
+  can_explode: false
+  can_splash: false
+  promotable: false
+  double_attack: false
+  trait_effects: null
+
+babydragon:
+  attack: 3.0
+  defense: 3.0
+  hp: 15.0
+  range: 1
+  cost: 10
+  retaliates: true
+  surprise: false
+  can_fortify: false
+  can_explode: false
+  can_splash: false
+  promotable: false
+  double_attack: false
+  trait_effects: null
+
+firedragon:
+  attack: 4.0
+  defense: 3.0
+  hp: 20.0
+  range: 2
+  cost: 10
+  retaliates: true
+  surprise: false
+  can_fortify: false
+  can_explode: false
+  can_splash: true
+  promotable: false
+  double_attack: false
+  trait_effects: null
+
+amphibian:
+  attack: 2.0
+  defense: 1.0
+  hp: 10.0
+  range: 1
+  cost: 3
+  retaliates: true
+  surprise: false
+  can_fortify: false
+  can_explode: false
+  can_splash: false
+  promotable: true
+  double_attack: false
+  trait_effects: null
+
+tridention:
+  attack: 2.5
+  defense: 1.0
+  hp: 10.0
+  range: 2
+  cost: 8
+  retaliates: true
+  surprise: false
+  can_fortify: false
+  can_explode: false
+  can_splash: false
+  promotable: true
+  double_attack: false
+  trait_effects: null
+
+mooni:
+  attack: 0.0
+  defense: 1.0
+  hp: 10.0
+  range: 1
+  cost: 5
+  retaliates: false
+  surprise: false
+  can_fortify: false
+  can_explode: false
+  can_splash: false
+  promotable: true
+  double_attack: false
+  trait_effects: null
+
+battlesled:
+  attack: 3.0
+  defense: 2.0
+  hp: 15.0
+  range: 1
+  cost: 5
+  retaliates: true
+  surprise: false
+  can_fortify: false
+  can_explode: false
+  can_splash: false
+  promotable: true
+  double_attack: false
+  trait_effects: null
+
+icefortress:
+  attack: 4.0
+  defense: 3.0
+  hp: 20.0
+  range: 2
+  cost: 15
+  retaliates: true
+  surprise: false
+  can_fortify: false
+  can_explode: false
+  can_splash: false
+  promotable: true
+  double_attack: false
+  trait_effects: null
+
+icearcher:
+  attack: 1.0
+  defense: 1.0
+  hp: 10.0
+  range: 2
+  cost: 3
+  retaliates: false
+  surprise: false
+  can_fortify: true
+  can_explode: false
+  can_splash: false
+  promotable: true
+  double_attack: false
+  trait_effects: FROZEN
+
+crab:
+  attack: 4.0
+  defense: 4.0
+  hp: 40.0
+  range: 1
+  cost: 10
+  retaliates: true
+  surprise: false
+  can_fortify: false
+  can_explode: false
+  can_splash: false
+  promotable: false
+  double_attack: false
+  trait_effects: null
+
+gaami:
+  attack: 4.0
+  defense: 3.0
+  hp: 30.0
+  range: 1
+  cost: 10
+  retaliates: true
+  surprise: false
+  can_fortify: false
+  can_explode: false
+  can_splash: false
+  promotable: false
+  double_attack: false
+  trait_effects: null
+
+hexapod:
+  attack: 3.0
+  defense: 1.0
+  hp: 5.0
+  range: 1
+  cost: 3
+  retaliates: true
+  surprise: false
+  can_fortify: false
+  can_explode: false
+  can_splash: false
+  promotable: true
+  double_attack: false
+  trait_effects: null
+
+doomux:
+  attack: 3.5
+  defense: 2.0
+  hp: 20.0
+  range: 1
+  cost: 10
+  retaliates: true
+  surprise: false
+  can_fortify: false
+  can_explode: true
+  can_splash: false
+  promotable: true
+  double_attack: false
+  trait_effects: null
+
+phychi:
+  attack: 0.7
+  defense: 1.0
+  hp: 5.0
+  range: 2
+  cost: 3
+  retaliates: true
+  surprise: true
+  can_fortify: false
+  can_explode: false
+  can_splash: false
+  promotable: true
+  double_attack: true
+  trait_effects: POISONED
+
+kiton:
+  attack: 1.0
+  defense: 3.0
+  hp: 15.0
+  range: 1
+  cost: 3
+  retaliates: true
+  surprise: false
+  can_fortify: false
+  can_explode: false
+  can_splash: false
+  promotable: true
+  double_attack: false
+  trait_effects: POISONED
+
+exida:
+  attack: 3.0
+  defense: 1.0
+  hp: 10.0
+  range: 3
+  cost: 8
+  retaliates: true
+  surprise: false
+  can_fortify: false
+  can_explode: false
+  can_splash: true
+  promotable: true
+  double_attack: false
+  trait_effects: POISONED
+
+centipede:
+  attack: 4.0
+  defense: 3.0
+  hp: 20.0
+  range: 1
+  cost: 10
+  retaliates: true
+  surprise: false
+  can_fortify: false
+  can_explode: false
+  can_splash: false
+  promotable: false
+  double_attack: false
+  trait_effects: null
+
+segment:
+  attack: 2.0
+  defense: 2.0
+  hp: 10.0
+  range: 1
+  cost: 2
+  retaliates: false
+  surprise: false
+  can_fortify: false
+  can_explode: true
+  can_splash: false
+  promotable: false
+  double_attack: false
+  # Segments always self-destruct when they attack (exploding base) AND apply poison.
+  # Matches Polytopia's current Segment behavior: no normal attack, only explode+poison.
+  initial_status: EXPLODING
+  trait_effects: POISONED
+
+raychi:
+  attack: 3.0
+  defense: 2.0
+  hp: 10.0
+  range: 1
+  cost: 5
+  retaliates: true
+  surprise: false
+  can_fortify: false
+  can_explode: false
+  can_splash: false
+  promotable: false
+  double_attack: false
+  trait_effects: null
+
+shaman:
+  attack: 1.0
+  defense: 1.0
+  hp: 10.0
+  range: 1
+  cost: 5
+  retaliates: true
+  surprise: false
+  can_fortify: false
+  can_explode: false
+  can_splash: false
+  promotable: false
+  double_attack: false
+  trait_effects: CONVERTED
+
+dagger:
+  attack: 2.0
+  defense: 2.0
+  hp: 10.0
+  range: 1
+  cost: 2
+  retaliates: true
+  surprise: true
+  can_fortify: false
+  can_explode: false
+  can_splash: false
+  promotable: false
+  double_attack: false
+  trait_effects: null
+
+cloak:
+  attack: 2.0
+  defense: 0.5
+  hp: 5.0
+  range: 1
+  cost: 8
+  retaliates: false
+  surprise: false
+  can_fortify: false
+  can_explode: false
+  can_splash: false
+  promotable: true
+  double_attack: false
+  trait_effects: null
+
+cloak_boat:
+  attack: 2.0
+  defense: 0.5
+  hp: 10.0
+  range: 1
+  cost: 0
+  retaliates: false
+  surprise: false
+  can_fortify: false
+  can_explode: false
+  can_splash: false
+  promotable: false
+  double_attack: false
+  trait_effects: null
+
+pirate:
+  attack: 2.0
+  defense: 2.0
+  hp: 15.0
+  range: 1
+  cost: 0
+  retaliates: true
+  surprise: true
+  can_fortify: false
+  can_explode: false
+  can_splash: false
+  promotable: false
+  double_attack: false
+  trait_effects: null
+
+bombership:
+  attack: 3.0
+  defense: 2.0
+  hp: 10.0
+  range: 3
+  cost: 15
+  retaliates: false
+  surprise: false
+  can_fortify: false
+  can_explode: false
+  can_splash: true
+  promotable: false
+  double_attack: false
+  trait_effects: null
+
+scoutship:
+  attack: 2.0
+  defense: 1.0
+  hp: 10.0
+  range: 2
+  cost: 5
+  retaliates: true
+  surprise: false
+  can_fortify: false
+  can_explode: false
+  can_splash: false
+  promotable: false
+  double_attack: false
+  trait_effects: null
+
+transportship:
+  attack: 0.0
+  defense: 1.0
+  hp: 10.0
+  range: 2
+  cost: 0
+  retaliates: false
+  surprise: false
+  can_fortify: false
+  can_explode: false
+  can_splash: false
+  promotable: false
+  double_attack: false
+  trait_effects: null
+
+rammership:
+  attack: 3.0
+  defense: 3.0
+  hp: 10.0
+  range: 1
+  cost: 5
+  retaliates: true
+  surprise: false
+  can_fortify: false
+  can_explode: false
+  can_splash: false
+  promotable: false
+  double_attack: false
+  trait_effects: null
+
+juggernaut:
+  attack: 4.0
+  defense: 4.0
+  hp: 40.0
+  range: 1
+  cost: 0
+  retaliates: false
+  surprise: false
+  can_fortify: false
+  can_explode: false
+  can_splash: true
+  promotable: false
+  double_attack: false
+  trait_effects: null
+
+mermaidwarrior:
+  attack: 2.0
+  defense: 2.0
+  hp: 10.0
+  range: 1
+  cost: 2
+  retaliates: true
+  surprise: false
+  can_fortify: true
+  can_explode: false
+  can_splash: false
+  promotable: true
+  double_attack: false
+  trait_effects: null
+
+mermaidarcher:
+  attack: 2.0
+  defense: 1.0
+  hp: 10.0
+  range: 2
+  cost: 3
+  retaliates: true
+  surprise: false
+  can_fortify: true
+  can_explode: false
+  can_splash: false
+  promotable: true
+  double_attack: false
+  trait_effects: null
+
+mermaidswordsman:
+  attack: 3.0
+  defense: 3.0
+  hp: 15.0
+  range: 1
+  cost: 5
+  retaliates: true
+  surprise: false
+  can_fortify: false
+  can_explode: false
+  can_splash: false
+  promotable: true
+  double_attack: false
+  trait_effects: null
+
+mermaiddefender:
+  attack: 1.0
+  defense: 3.0
+  hp: 15.0
+  range: 1
+  cost: 3
+  retaliates: true
+  surprise: false
+  can_fortify: true
+  can_explode: false
+  can_splash: false
+  promotable: true
+  double_attack: false
+  trait_effects: null
+
+mermaidcloak:
+  attack: 2.0
+  defense: 0.5
+  hp: 5.0
+  range: 1
+  cost: 8
+  retaliates: false
+  surprise: false
+  can_fortify: false
+  can_explode: false
+  can_splash: false
+  promotable: true
+  double_attack: false
+  trait_effects: null
+
+mermaiddagger:
+  attack: 2.0
+  defense: 2.0
+  hp: 10.0
+  range: 1
+  cost: 2
+  retaliates: true
+  surprise: true
+  can_fortify: false
+  can_explode: false
+  can_splash: false
+  promotable: false
+  double_attack: false
+  trait_effects: null
+
+jelly:
+  attack: 2.0
+  defense: 2.0
+  hp: 20.0
+  range: 1
+  cost: 8
+  retaliates: false
+  surprise: false
+  can_fortify: false
+  can_explode: false
+  can_splash: false
+  promotable: false
+  double_attack: false
+  trait_effects: null
+
+shark:
+  attack: 3.5
+  defense: 2.0
+  hp: 10.0
+  range: 1
+  cost: 8
+  retaliates: true
+  surprise: true
+  can_fortify: false
+  can_explode: false
+  can_splash: false
+  promotable: false
+  double_attack: false
+  trait_effects: null
+
+siren:
+  attack: 0.0
+  defense: 1.0
+  hp: 10.0
+  range: 1
+  cost: 5
+  retaliates: false
+  surprise: false
+  can_fortify: false
+  can_explode: false
+  can_splash: false
+  promotable: true
+  double_attack: false
+  trait_effects: CONVERTED
+
+aquapult:
+  attack: 4.0
+  defense: 0.0
+  hp: 10.0
+  range: 3
+  cost: 8
+  retaliates: false
+  surprise: false
+  can_fortify: false
+  can_explode: false
+  can_splash: false
+  promotable: true
+  double_attack: false
+  trait_effects: null
+
+boomchi:
+  attack: 3.0
+  defense: 3.0
+  hp: 10.0
+  range: 0
+  cost: 5
+  retaliates: false
+  surprise: false
+  can_fortify: false
+  can_explode: true
+  can_splash: false
+  promotable: false
+  double_attack: false
+  trait_effects: null
+
+island:
+  attack: 4.0
+  defense: 4.0
+  hp: 20.0
+  range: 1
+  cost: 20
+  retaliates: true
+  surprise: false
+  can_fortify: false
+  can_explode: false
+  can_splash: true
+  promotable: false
+  double_attack: false
+  trait_effects: POISONED
+
+ciru:
+  attack: 1.0
+  defense: 1.0
+  hp: 5.0
+  range: 1
+  cost: 5
+  retaliates: true
+  surprise: false
+  can_fortify: false
+  can_explode: false
+  can_splash: false
+  promotable: false
+  double_attack: false
+  trait_effects: CONVERTED
+
+mantis:
+  attack: 3.0
+  defense: 3.0
+  hp: 15.0
+  range: 1
+  cost: 5
+  retaliates: true
+  surprise: false
+  can_fortify: false
+  can_explode: false
+  can_splash: false
+  promotable: true
+  double_attack: false
+  trait_effects: null
+
+bugegg:
+  attack: 2.0
+  defense: 3.0
+  hp: 10.0
+  range: 0
+  cost: 2
+  retaliates: false
+  surprise: false
+  can_fortify: false
+  can_explode: true
+  can_splash: false
+  promotable: false
+  double_attack: false
+  trait_effects: null
+
+moth:
+  attack: 2.0
+  defense: 0.1
+  hp: 10.0
+  range: 1
+  cost: 5
+  retaliates: false
+  surprise: false
+  can_fortify: false
+  can_explode: false
+  can_splash: false
+  promotable: false
+  double_attack: false
+  trait_effects: POISONED
+
+larva:
+  attack: 2.0
+  defense: 2.0
+  hp: 10.0
+  range: 1
+  cost: 2
+  retaliates: true
+  surprise: true
+  can_fortify: false
+  can_explode: false
+  can_splash: false
+  promotable: false
+  double_attack: false
+  trait_effects: null

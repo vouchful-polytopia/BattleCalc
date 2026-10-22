@@ -1,0 +1,26 @@
+# Build artifacts
+target/
+*.exe
+
+# Config with server IDs
+config.json
+
+# Python
+__pycache__/
+*.pyc
+
+# IDE
+.vs/
+.vscode/
+.idea/
+
+# Claude
+.claude/
+
+# OS
+.Rhistory
+Thumbs.db
+.DS_Store
+
+# Test artifacts
+tests/combat_trace.rs

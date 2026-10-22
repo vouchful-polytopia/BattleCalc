@@ -1,4 +1,3 @@
-[README.md](https://github.com/user-attachments/files/26644924/README.md)
 # Polytopia Calculator
 
 A Discord bot for [The Battle of Polytopia](https://polytopia.io) that does combat math the way the actual game does it — and then uses that math to solve planning problems you'd otherwise work out on paper.
@@ -15,7 +14,7 @@ The bot figures out which attacker hits which defender, in what order, to kill t
 
 ## Why this bot
 
-
+Most Polytopia calculators approximate the combat formula. This one uses the game's integer math, rounding rule and defense-bonus semantics, so the numbers should match what you see in game. If they disagree, the game is what we trust.
 
 On top of that correct base, the bot ships a set of planners that go beyond simple 1v1 math:
 
@@ -133,3 +132,41 @@ All base-game units plus every tribe-specific unit:
 - **Nature / other** — Ciru, Mantis, Bugegg, Moth, Larva, Bunny, Island, Boomchi, Juggernaut
 
 All naval forms (Scoutship, Bombership, Rammership, Transportship) are supported both as standalone units and as carriers.
+
+---
+
+## Self-hosting
+
+Requires a recent stable Rust toolchain and a Discord bot token. See [SETUP_GUIDE.md](SETUP_GUIDE.md) for creating the bot application and inviting it.
+
+```bash
+cargo build --release
+DISCORD_TOKEN=<your-bot-token> ./target/release/polytopia-bot
+```
+
+Slash commands are registered globally on startup, so they can take a little while to appear in Discord.
+
+An optional `config.json` in the working directory configures the admin-only `/deathmsg` command:
+
+```json
+{
+  "admin_user_id": "<your-discord-user-id>",
+  "death_messages": []
+}
+```
+
+Without it the bot runs normally; `/deathmsg` is simply unavailable and kills show as `[killed]`.
+
+Unit stats live in `unit_data.yaml` and are processed by `build.rs` at build time.
+
+## Tests
+
+```bash
+cargo test
+```
+
+`tests/game_formula_tests.rs` checks the combat math against reference formulas.
+
+## Legal
+
+BattleCalc is an unofficial community project, not affiliated with Midjiwan AB or The Battle of Polytopia. The hosted instance is covered by the [Terms of Service](TERMS_OF_SERVICE.md) and [Privacy Policy](PRIVACY_POLICY.md).
